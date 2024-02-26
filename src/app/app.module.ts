@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SezioneIntroComponent } from './sezione-intro/sezione-intro.component';
+import { SezioneContattiComponent } from './sezione-contatti/sezione-contatti.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SezioneIntroComponent
+    SezioneIntroComponent,
+    SezioneContattiComponent
   ],
   imports: [
     BrowserModule,
